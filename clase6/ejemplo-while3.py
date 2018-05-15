@@ -21,6 +21,6 @@ while contador<=limite:
     edad = input("Ingrese su edad: \n")
     cadena = "{0}{1}\t{2:10}\t{3:20}\n".format(cadena, nombre, apellido, int(edad))
     
-    contador = contador + 1 #incremento contador
+    contador = contador + 1 # incremento contador
 
 print(cadena)
